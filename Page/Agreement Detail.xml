@@ -428,15 +428,15 @@
             <sch:eventHandler></sch:eventHandler>
         </sch:BmfPageField>
         <sch:BmfPageField>
-            <sch:name>CompanyId</sch:name>
+            <sch:name>AgreementSpecId</sch:name>
             <sch:seqNumber>310</sch:seqNumber>
             <sch:tabIndex>0</sch:tabIndex>
             <sch:tabPage></sch:tabPage>
             <sch:pageAreaName></sch:pageAreaName>
             <sch:fieldType>ObjectSelector</sch:fieldType>
             <sch:widgetType2></sch:widgetType2>
-            <sch:refTargetType>PasCompany</sch:refTargetType>
-            <sch:label>平台商</sch:label>
+            <sch:refTargetType>AgreementSpec</sch:refTargetType>
+            <sch:label>AgreementSpecId</sch:label>
             <sch:controllingParameters></sch:controllingParameters>
             <sch:domainName></sch:domainName>
             <sch:dynaDomain></sch:dynaDomain>

@@ -1499,13 +1499,13 @@
         </sch:BmfPageButton>
         <sch:BmfPageButton>
             <sch:seqNumber>2100</sch:seqNumber>
-            <sch:buttonName>ViewRequestDetail</sch:buttonName>
+            <sch:buttonName>ExecuteRequest</sch:buttonName>
             <sch:displayCondition></sch:displayCondition>
             <sch:displayResource></sch:displayResource>
             <sch:description></sch:description>
             <sch:showButton>true</sch:showButton>
             <sch:eventHandler></sch:eventHandler>
-            <sch:bmfButton isRef="true">ViewRequestDetail</sch:bmfButton>
+            <sch:bmfButton isRef="true">ExecuteRequest</sch:bmfButton>
         </sch:BmfPageButton>
     </sch:buttons>
 </sch:PageDefinition>

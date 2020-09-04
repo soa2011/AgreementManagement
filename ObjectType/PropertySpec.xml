@@ -54,7 +54,7 @@
         <sch:BmfObjectField>
             <sch:name>DataType</sch:name>
             <sch:dataType>Char</sch:dataType>
-            <sch:enumName></sch:enumName>
+            <sch:enumName>DataType</sch:enumName>
             <sch:length>64</sch:length>
             <sch:scale></sch:scale>
             <sch:autoIncrement>false</sch:autoIncrement>

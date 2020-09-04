@@ -483,7 +483,7 @@
             <sch:tableName>AgreementSpec</sch:tableName>
             <sch:type>Collection</sch:type>
             <sch:seqIndex>500</sch:seqIndex>
-            <sch:format>LOB业务定义(%s)</sch:format>
+            <sch:format>AgreementSpecs(%s)</sch:format>
             <sch:columns>#count</sch:columns>
             <sch:action></sch:action>
             <sch:quoteDisplay>true</sch:quoteDisplay>
@@ -527,7 +527,7 @@
             <sch:tableName>AgreementRuleSpec</sch:tableName>
             <sch:type>Collection</sch:type>
             <sch:seqIndex>1200</sch:seqIndex>
-            <sch:format>Lob业务规则(%s)</sch:format>
+            <sch:format>AgreementRules(%s)</sch:format>
             <sch:columns>#count</sch:columns>
             <sch:action></sch:action>
             <sch:quoteDisplay>true</sch:quoteDisplay>

@@ -1334,15 +1334,15 @@
             <sch:eventHandler></sch:eventHandler>
         </sch:BmfPageField>
         <sch:BmfPageField>
-            <sch:name>RequestSpecificationId</sch:name>
+            <sch:name>RequestSpecId</sch:name>
             <sch:seqNumber>1350</sch:seqNumber>
             <sch:tabIndex>0</sch:tabIndex>
             <sch:tabPage></sch:tabPage>
             <sch:pageAreaName></sch:pageAreaName>
             <sch:fieldType>ObjectSelector</sch:fieldType>
             <sch:widgetType2></sch:widgetType2>
-            <sch:refTargetType>RequestSpecification</sch:refTargetType>
-            <sch:label>RequestSpecificationId</sch:label>
+            <sch:refTargetType>AgreementRequestSpec</sch:refTargetType>
+            <sch:label>RequestSpecId</sch:label>
             <sch:controllingParameters></sch:controllingParameters>
             <sch:domainName></sch:domainName>
             <sch:dynaDomain></sch:dynaDomain>

@@ -177,10 +177,10 @@
         </sch:BmfObjectRelationship>
         <sch:BmfObjectRelationship>
             <sch:type>REF_TO_ONE</sch:type>
-            <sch:name>RequestSpecificationId</sch:name>
+            <sch:name>RequestSpecId</sch:name>
             <sch:displayName></sch:displayName>
-            <sch:description>RequestSpecificationId</sch:description>
-            <sch:relatedObjectType>RequestSpecification</sch:relatedObjectType>
+            <sch:description>RequestSpecId</sch:description>
+            <sch:relatedObjectType>AgreementRequestSpec</sch:relatedObjectType>
             <sch:joinField></sch:joinField>
             <sch:lowerBound>0</sch:lowerBound>
             <sch:upperBound>1</sch:upperBound>

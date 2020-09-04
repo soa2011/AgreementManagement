@@ -505,7 +505,7 @@
             <sch:tableName>AgreementRequestSpec</sch:tableName>
             <sch:type>Collection</sch:type>
             <sch:seqIndex>600</sch:seqIndex>
-            <sch:format>AgreementRequestSpec(%s)</sch:format>
+            <sch:format>RequestSpecs(%s)</sch:format>
             <sch:columns>#count</sch:columns>
             <sch:action></sch:action>
             <sch:quoteDisplay>true</sch:quoteDisplay>
@@ -527,7 +527,7 @@
             <sch:tableName>AgreementRuleSpec</sch:tableName>
             <sch:type>Collection</sch:type>
             <sch:seqIndex>1200</sch:seqIndex>
-            <sch:format>AgreementRules(%s)</sch:format>
+            <sch:format>RuleSpecs(%s)</sch:format>
             <sch:columns>#count</sch:columns>
             <sch:action></sch:action>
             <sch:quoteDisplay>true</sch:quoteDisplay>
@@ -549,7 +549,7 @@
             <sch:tableName>RoleSpec</sch:tableName>
             <sch:type>Collection</sch:type>
             <sch:seqIndex>20000</sch:seqIndex>
-            <sch:format>RoleSpec(%s)</sch:format>
+            <sch:format>RoleSpecs(%s)</sch:format>
             <sch:columns>#count</sch:columns>
             <sch:action></sch:action>
             <sch:quoteDisplay>true</sch:quoteDisplay>
@@ -571,7 +571,7 @@
             <sch:tableName>PropertySpec</sch:tableName>
             <sch:type>Collection</sch:type>
             <sch:seqIndex>30000</sch:seqIndex>
-            <sch:format>PropertySpec(%s)</sch:format>
+            <sch:format>PropertySpecs(%s)</sch:format>
             <sch:columns>#count</sch:columns>
             <sch:action></sch:action>
             <sch:quoteDisplay>true</sch:quoteDisplay>

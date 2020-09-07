@@ -502,6 +502,28 @@
             <sch:description></sch:description>
         </sch:BmfTreeNode>
         <sch:BmfTreeNode>
+            <sch:tableName>AgreementSpecPart</sch:tableName>
+            <sch:type>Collection</sch:type>
+            <sch:seqIndex>500</sch:seqIndex>
+            <sch:format>SpecParts(%s)</sch:format>
+            <sch:columns>#count</sch:columns>
+            <sch:action></sch:action>
+            <sch:quoteDisplay>true</sch:quoteDisplay>
+            <sch:policyDisplay>true</sch:policyDisplay>
+            <sch:description></sch:description>
+        </sch:BmfTreeNode>
+        <sch:BmfTreeNode>
+            <sch:tableName>AgreementSpecPart</sch:tableName>
+            <sch:type>Item</sch:type>
+            <sch:seqIndex>500</sch:seqIndex>
+            <sch:format>%s</sch:format>
+            <sch:columns>PartAgreementSpecId</sch:columns>
+            <sch:action></sch:action>
+            <sch:quoteDisplay>false</sch:quoteDisplay>
+            <sch:policyDisplay>true</sch:policyDisplay>
+            <sch:description></sch:description>
+        </sch:BmfTreeNode>
+        <sch:BmfTreeNode>
             <sch:tableName>AgreementRequestSpec</sch:tableName>
             <sch:type>Collection</sch:type>
             <sch:seqIndex>600</sch:seqIndex>
@@ -546,6 +568,28 @@
             <sch:description></sch:description>
         </sch:BmfTreeNode>
         <sch:BmfTreeNode>
+            <sch:tableName>AgreementCalcSpec</sch:tableName>
+            <sch:type>Collection</sch:type>
+            <sch:seqIndex>1200</sch:seqIndex>
+            <sch:format>CalcSpecs(%s)</sch:format>
+            <sch:columns>#count</sch:columns>
+            <sch:action></sch:action>
+            <sch:quoteDisplay>true</sch:quoteDisplay>
+            <sch:policyDisplay>true</sch:policyDisplay>
+            <sch:description></sch:description>
+        </sch:BmfTreeNode>
+        <sch:BmfTreeNode>
+            <sch:tableName>AgreementCalcSpec</sch:tableName>
+            <sch:type>Item</sch:type>
+            <sch:seqIndex>1200</sch:seqIndex>
+            <sch:format>%s</sch:format>
+            <sch:columns>Name</sch:columns>
+            <sch:action></sch:action>
+            <sch:quoteDisplay>false</sch:quoteDisplay>
+            <sch:policyDisplay>true</sch:policyDisplay>
+            <sch:description></sch:description>
+        </sch:BmfTreeNode>
+        <sch:BmfTreeNode>
             <sch:tableName>RoleSpec</sch:tableName>
             <sch:type>Collection</sch:type>
             <sch:seqIndex>20000</sch:seqIndex>
@@ -561,7 +605,7 @@
             <sch:type>Item</sch:type>
             <sch:seqIndex>20000</sch:seqIndex>
             <sch:format>%s</sch:format>
-            <sch:columns>DocNum</sch:columns>
+            <sch:columns>Name</sch:columns>
             <sch:action></sch:action>
             <sch:quoteDisplay>false</sch:quoteDisplay>
             <sch:policyDisplay>true</sch:policyDisplay>

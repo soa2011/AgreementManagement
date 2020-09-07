@@ -379,17 +379,17 @@
             <sch:eventHandler></sch:eventHandler>
         </sch:BmfPageField>
         <sch:BmfPageField>
-            <sch:name>Duration</sch:name>
+            <sch:name>Type</sch:name>
             <sch:seqNumber>350</sch:seqNumber>
             <sch:tabIndex>0</sch:tabIndex>
             <sch:tabPage></sch:tabPage>
             <sch:pageAreaName></sch:pageAreaName>
-            <sch:fieldType>Edit</sch:fieldType>
+            <sch:fieldType>Select</sch:fieldType>
             <sch:widgetType2></sch:widgetType2>
             <sch:refTargetType></sch:refTargetType>
-            <sch:label>Duration</sch:label>
+            <sch:label>Type</sch:label>
             <sch:controllingParameters></sch:controllingParameters>
-            <sch:domainName></sch:domainName>
+            <sch:domainName>AgreementSpecType</sch:domainName>
             <sch:dynaDomain></sch:dynaDomain>
             <sch:dependency></sch:dependency>
             <sch:defaultValue></sch:defaultValue>
@@ -427,6 +427,7 @@
             <sch:fieldLinkExpression></sch:fieldLinkExpression>
             <sch:filterCriteria></sch:filterCriteria>
             <sch:eventHandler></sch:eventHandler>
+            <sch:bmfDomain isRef="true">AgreementSpecType</sch:bmfDomain>
         </sch:BmfPageField>
         <sch:BmfPageField>
             <sch:name>Version</sch:name>

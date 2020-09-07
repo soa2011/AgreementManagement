@@ -620,9 +620,9 @@
             <sch:description>合同创建时支付方式</sch:description>
         </sch:BmfObjectField>
         <sch:BmfObjectField>
-            <sch:name>AgreementLevel</sch:name>
+            <sch:name>AgreementType</sch:name>
             <sch:dataType>Char</sch:dataType>
-            <sch:enumName>AgreementLevel</sch:enumName>
+            <sch:enumName>AgreementType</sch:enumName>
             <sch:length>128</sch:length>
             <sch:scale></sch:scale>
             <sch:autoIncrement>false</sch:autoIncrement>

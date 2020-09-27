@@ -512,8 +512,8 @@
             <sch:tableName>AgreementRequestSpec</sch:tableName>
             <sch:type>Item</sch:type>
             <sch:seqIndex>600</sch:seqIndex>
-            <sch:format>%s %s</sch:format>
-            <sch:columns>Code,Name</sch:columns>
+            <sch:format>%s</sch:format>
+            <sch:columns>Name</sch:columns>
             <sch:action></sch:action>
             <sch:quoteDisplay>false</sch:quoteDisplay>
             <sch:description></sch:description>
@@ -592,8 +592,48 @@
             <sch:tableName>PropertySpec</sch:tableName>
             <sch:type>Item</sch:type>
             <sch:seqIndex>30000</sch:seqIndex>
-            <sch:format>%s %s</sch:format>
-            <sch:columns>Code,Name</sch:columns>
+            <sch:format>%s</sch:format>
+            <sch:columns>Name</sch:columns>
+            <sch:action></sch:action>
+            <sch:quoteDisplay>false</sch:quoteDisplay>
+            <sch:description></sch:description>
+        </sch:BmfTreeNode>
+        <sch:BmfTreeNode>
+            <sch:tableName>ConstRoleSpec</sch:tableName>
+            <sch:type>Collection</sch:type>
+            <sch:seqIndex>20000</sch:seqIndex>
+            <sch:format>ConstRoleSpecs(%s)</sch:format>
+            <sch:columns>#count</sch:columns>
+            <sch:action></sch:action>
+            <sch:quoteDisplay>true</sch:quoteDisplay>
+            <sch:description></sch:description>
+        </sch:BmfTreeNode>
+        <sch:BmfTreeNode>
+            <sch:tableName>ConstRoleSpec</sch:tableName>
+            <sch:type>Item</sch:type>
+            <sch:seqIndex>20000</sch:seqIndex>
+            <sch:format>%s</sch:format>
+            <sch:columns>Name</sch:columns>
+            <sch:action></sch:action>
+            <sch:quoteDisplay>false</sch:quoteDisplay>
+            <sch:description></sch:description>
+        </sch:BmfTreeNode>
+        <sch:BmfTreeNode>
+            <sch:tableName>ConstPropertySpec</sch:tableName>
+            <sch:type>Collection</sch:type>
+            <sch:seqIndex>30000</sch:seqIndex>
+            <sch:format>ConstPropertySpecs(%s)</sch:format>
+            <sch:columns>#count</sch:columns>
+            <sch:action></sch:action>
+            <sch:quoteDisplay>true</sch:quoteDisplay>
+            <sch:description></sch:description>
+        </sch:BmfTreeNode>
+        <sch:BmfTreeNode>
+            <sch:tableName>ConstPropertySpec</sch:tableName>
+            <sch:type>Item</sch:type>
+            <sch:seqIndex>30000</sch:seqIndex>
+            <sch:format>%s</sch:format>
+            <sch:columns>Name</sch:columns>
             <sch:action></sch:action>
             <sch:quoteDisplay>false</sch:quoteDisplay>
             <sch:description></sch:description>

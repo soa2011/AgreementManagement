@@ -55,6 +55,28 @@
             <sch:containment>false</sch:containment>
         </sch:BmfObjectRelationship>
         <sch:BmfObjectRelationship>
+            <sch:type>REF_TO_MANY</sch:type>
+            <sch:name>ConstPropertySpec</sch:name>
+            <sch:displayName></sch:displayName>
+            <sch:description></sch:description>
+            <sch:relatedObjectType>ConstPropertySpec</sch:relatedObjectType>
+            <sch:joinField></sch:joinField>
+            <sch:lowerBound>0</sch:lowerBound>
+            <sch:upperBound>-1</sch:upperBound>
+            <sch:containment>false</sch:containment>
+        </sch:BmfObjectRelationship>
+        <sch:BmfObjectRelationship>
+            <sch:type>REF_TO_MANY</sch:type>
+            <sch:name>ConstRoleSpec</sch:name>
+            <sch:displayName></sch:displayName>
+            <sch:description></sch:description>
+            <sch:relatedObjectType>ConstRoleSpec</sch:relatedObjectType>
+            <sch:joinField></sch:joinField>
+            <sch:lowerBound>0</sch:lowerBound>
+            <sch:upperBound>-1</sch:upperBound>
+            <sch:containment>false</sch:containment>
+        </sch:BmfObjectRelationship>
+        <sch:BmfObjectRelationship>
             <sch:type>REF_TO_ONE</sch:type>
             <sch:name>ClientId</sch:name>
             <sch:displayName></sch:displayName>

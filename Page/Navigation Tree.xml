@@ -159,6 +159,16 @@
             <sch:description></sch:description>
         </sch:BmfTreeNode>
         <sch:BmfTreeNode>
+            <sch:tableName>AgreementPart_Ref</sch:tableName>
+            <sch:type>Item</sch:type>
+            <sch:seqIndex>900</sch:seqIndex>
+            <sch:format></sch:format>
+            <sch:columns>PartAgreementId</sch:columns>
+            <sch:action></sch:action>
+            <sch:quoteDisplay>false</sch:quoteDisplay>
+            <sch:description></sch:description>
+        </sch:BmfTreeNode>
+        <sch:BmfTreeNode>
             <sch:tableName>AgreementRequestView</sch:tableName>
             <sch:type>Collection</sch:type>
             <sch:seqIndex>1200</sch:seqIndex>

@@ -19,8 +19,6 @@
     <sch:modifyResource></sch:modifyResource>
     <sch:displayResource2></sch:displayResource2>
     <sch:modifyResource2></sch:modifyResource2>
-    <sch:prevPage></sch:prevPage>
-    <sch:nextPage></sch:nextPage>
     <sch:path></sch:path>
     <sch:description></sch:description>
     <sch:clientSideController></sch:clientSideController>
@@ -34,7 +32,6 @@
             <sch:tabPage></sch:tabPage>
             <sch:pageAreaName></sch:pageAreaName>
             <sch:fieldType>Edit</sch:fieldType>
-            <sch:widgetType2></sch:widgetType2>
             <sch:refTargetType></sch:refTargetType>
             <sch:label>SeqNumber</sch:label>
             <sch:controllingParameters></sch:controllingParameters>
@@ -84,7 +81,6 @@
             <sch:tabPage></sch:tabPage>
             <sch:pageAreaName></sch:pageAreaName>
             <sch:fieldType>Select</sch:fieldType>
-            <sch:widgetType2></sch:widgetType2>
             <sch:refTargetType></sch:refTargetType>
             <sch:label>交易类型</sch:label>
             <sch:controllingParameters></sch:controllingParameters>
@@ -135,7 +131,6 @@
             <sch:tabPage></sch:tabPage>
             <sch:pageAreaName></sch:pageAreaName>
             <sch:fieldType>Edit</sch:fieldType>
-            <sch:widgetType2></sch:widgetType2>
             <sch:refTargetType></sch:refTargetType>
             <sch:label>SubTransType</sch:label>
             <sch:controllingParameters></sch:controllingParameters>
@@ -185,7 +180,6 @@
             <sch:tabPage></sch:tabPage>
             <sch:pageAreaName></sch:pageAreaName>
             <sch:fieldType>Edit</sch:fieldType>
-            <sch:widgetType2></sch:widgetType2>
             <sch:refTargetType></sch:refTargetType>
             <sch:label>TransMode</sch:label>
             <sch:controllingParameters></sch:controllingParameters>
@@ -235,7 +229,6 @@
             <sch:tabPage></sch:tabPage>
             <sch:pageAreaName></sch:pageAreaName>
             <sch:fieldType>Select</sch:fieldType>
-            <sch:widgetType2></sch:widgetType2>
             <sch:refTargetType></sch:refTargetType>
             <sch:label>RequestLevel</sch:label>
             <sch:controllingParameters></sch:controllingParameters>
@@ -286,7 +279,6 @@
             <sch:tabPage></sch:tabPage>
             <sch:pageAreaName></sch:pageAreaName>
             <sch:fieldType>DateTime</sch:fieldType>
-            <sch:widgetType2></sch:widgetType2>
             <sch:refTargetType></sch:refTargetType>
             <sch:label>TransDate</sch:label>
             <sch:controllingParameters></sch:controllingParameters>
@@ -336,7 +328,6 @@
             <sch:tabPage></sch:tabPage>
             <sch:pageAreaName></sch:pageAreaName>
             <sch:fieldType>Date</sch:fieldType>
-            <sch:widgetType2></sch:widgetType2>
             <sch:refTargetType></sch:refTargetType>
             <sch:label>EffectiveDate</sch:label>
             <sch:controllingParameters></sch:controllingParameters>
@@ -386,7 +377,6 @@
             <sch:tabPage></sch:tabPage>
             <sch:pageAreaName></sch:pageAreaName>
             <sch:fieldType>Select</sch:fieldType>
-            <sch:widgetType2></sch:widgetType2>
             <sch:refTargetType></sch:refTargetType>
             <sch:label>Cancel Type</sch:label>
             <sch:controllingParameters></sch:controllingParameters>
@@ -437,7 +427,6 @@
             <sch:tabPage></sch:tabPage>
             <sch:pageAreaName></sch:pageAreaName>
             <sch:fieldType>Select</sch:fieldType>
-            <sch:widgetType2></sch:widgetType2>
             <sch:refTargetType></sch:refTargetType>
             <sch:label>TransStatus</sch:label>
             <sch:controllingParameters></sch:controllingParameters>
@@ -488,7 +477,6 @@
             <sch:tabPage></sch:tabPage>
             <sch:pageAreaName></sch:pageAreaName>
             <sch:fieldType>DateTime</sch:fieldType>
-            <sch:widgetType2></sch:widgetType2>
             <sch:refTargetType></sch:refTargetType>
             <sch:label>StatusDate</sch:label>
             <sch:controllingParameters></sch:controllingParameters>
@@ -538,7 +526,6 @@
             <sch:tabPage></sch:tabPage>
             <sch:pageAreaName></sch:pageAreaName>
             <sch:fieldType>Edit</sch:fieldType>
-            <sch:widgetType2></sch:widgetType2>
             <sch:refTargetType></sch:refTargetType>
             <sch:label>TransAmount</sch:label>
             <sch:controllingParameters></sch:controllingParameters>
@@ -588,7 +575,6 @@
             <sch:tabPage></sch:tabPage>
             <sch:pageAreaName></sch:pageAreaName>
             <sch:fieldType>Select</sch:fieldType>
-            <sch:widgetType2></sch:widgetType2>
             <sch:refTargetType></sch:refTargetType>
             <sch:label>RequestResult</sch:label>
             <sch:controllingParameters></sch:controllingParameters>
@@ -639,7 +625,6 @@
             <sch:tabPage></sch:tabPage>
             <sch:pageAreaName></sch:pageAreaName>
             <sch:fieldType>TextArea</sch:fieldType>
-            <sch:widgetType2></sch:widgetType2>
             <sch:refTargetType></sch:refTargetType>
             <sch:label>RequestMessage</sch:label>
             <sch:controllingParameters></sch:controllingParameters>
@@ -689,7 +674,6 @@
             <sch:tabPage></sch:tabPage>
             <sch:pageAreaName></sch:pageAreaName>
             <sch:fieldType>Text</sch:fieldType>
-            <sch:widgetType2></sch:widgetType2>
             <sch:refTargetType></sch:refTargetType>
             <sch:label>FromAgreementStatus</sch:label>
             <sch:controllingParameters></sch:controllingParameters>
@@ -739,7 +723,6 @@
             <sch:tabPage></sch:tabPage>
             <sch:pageAreaName></sch:pageAreaName>
             <sch:fieldType>Text</sch:fieldType>
-            <sch:widgetType2></sch:widgetType2>
             <sch:refTargetType></sch:refTargetType>
             <sch:label>ToAgreementStatus</sch:label>
             <sch:controllingParameters></sch:controllingParameters>
@@ -789,7 +772,6 @@
             <sch:tabPage></sch:tabPage>
             <sch:pageAreaName></sch:pageAreaName>
             <sch:fieldType>ObjectSelector</sch:fieldType>
-            <sch:widgetType2></sch:widgetType2>
             <sch:refTargetType>AgreementRequestTask</sch:refTargetType>
             <sch:label>合同交易任务</sch:label>
             <sch:controllingParameters></sch:controllingParameters>
@@ -839,7 +821,6 @@
             <sch:tabPage></sch:tabPage>
             <sch:pageAreaName></sch:pageAreaName>
             <sch:fieldType>ObjectSelector</sch:fieldType>
-            <sch:widgetType2></sch:widgetType2>
             <sch:refTargetType>AgreementRequest</sch:refTargetType>
             <sch:label>父交易标识</sch:label>
             <sch:controllingParameters></sch:controllingParameters>
@@ -889,7 +870,6 @@
             <sch:tabPage></sch:tabPage>
             <sch:pageAreaName></sch:pageAreaName>
             <sch:fieldType>ObjectSelector</sch:fieldType>
-            <sch:widgetType2></sch:widgetType2>
             <sch:refTargetType>AgreementRequest</sch:refTargetType>
             <sch:label>SourceRequestId</sch:label>
             <sch:controllingParameters></sch:controllingParameters>
@@ -939,7 +919,6 @@
             <sch:tabPage></sch:tabPage>
             <sch:pageAreaName></sch:pageAreaName>
             <sch:fieldType>ObjectSelector</sch:fieldType>
-            <sch:widgetType2></sch:widgetType2>
             <sch:refTargetType>AgreementRequest</sch:refTargetType>
             <sch:label>RelatedRequestId</sch:label>
             <sch:controllingParameters></sch:controllingParameters>
@@ -989,7 +968,6 @@
             <sch:tabPage></sch:tabPage>
             <sch:pageAreaName></sch:pageAreaName>
             <sch:fieldType>Section Header Begin</sch:fieldType>
-            <sch:widgetType2></sch:widgetType2>
             <sch:refTargetType></sch:refTargetType>
             <sch:label>扩展信息</sch:label>
             <sch:controllingParameters></sch:controllingParameters>
@@ -1039,7 +1017,6 @@
             <sch:tabPage></sch:tabPage>
             <sch:pageAreaName></sch:pageAreaName>
             <sch:fieldType>ObjectSelector</sch:fieldType>
-            <sch:widgetType2></sch:widgetType2>
             <sch:refTargetType>AgreementVersion</sch:refTargetType>
             <sch:label>TargetAgreementVersion</sch:label>
             <sch:controllingParameters></sch:controllingParameters>
@@ -1089,7 +1066,6 @@
             <sch:tabPage></sch:tabPage>
             <sch:pageAreaName></sch:pageAreaName>
             <sch:fieldType>ObjectSelector</sch:fieldType>
-            <sch:widgetType2></sch:widgetType2>
             <sch:refTargetType>AgreementVersion</sch:refTargetType>
             <sch:label>ResultAgreementVersion</sch:label>
             <sch:controllingParameters></sch:controllingParameters>
@@ -1139,7 +1115,6 @@
             <sch:tabPage></sch:tabPage>
             <sch:pageAreaName></sch:pageAreaName>
             <sch:fieldType>ObjectSelector</sch:fieldType>
-            <sch:widgetType2></sch:widgetType2>
             <sch:refTargetType>SecurityUser</sch:refTargetType>
             <sch:label>CreatedBy</sch:label>
             <sch:controllingParameters></sch:controllingParameters>
@@ -1189,7 +1164,6 @@
             <sch:tabPage></sch:tabPage>
             <sch:pageAreaName></sch:pageAreaName>
             <sch:fieldType>Edit</sch:fieldType>
-            <sch:widgetType2></sch:widgetType2>
             <sch:refTargetType></sch:refTargetType>
             <sch:label>Initiator</sch:label>
             <sch:controllingParameters></sch:controllingParameters>
@@ -1239,7 +1213,6 @@
             <sch:tabPage></sch:tabPage>
             <sch:pageAreaName></sch:pageAreaName>
             <sch:fieldType>ObjectSelector</sch:fieldType>
-            <sch:widgetType2></sch:widgetType2>
             <sch:refTargetType>PaymentProvider</sch:refTargetType>
             <sch:label>PaymentProvider</sch:label>
             <sch:controllingParameters></sch:controllingParameters>
@@ -1289,7 +1262,6 @@
             <sch:tabPage></sch:tabPage>
             <sch:pageAreaName></sch:pageAreaName>
             <sch:fieldType>ObjectSelector</sch:fieldType>
-            <sch:widgetType2></sch:widgetType2>
             <sch:refTargetType>PaymentRequest</sch:refTargetType>
             <sch:label>PaymentRequest</sch:label>
             <sch:controllingParameters></sch:controllingParameters>
@@ -1339,7 +1311,6 @@
             <sch:tabPage></sch:tabPage>
             <sch:pageAreaName></sch:pageAreaName>
             <sch:fieldType>TextArea</sch:fieldType>
-            <sch:widgetType2></sch:widgetType2>
             <sch:refTargetType></sch:refTargetType>
             <sch:label>ProcessingSteps</sch:label>
             <sch:controllingParameters></sch:controllingParameters>
@@ -1389,7 +1360,6 @@
             <sch:tabPage></sch:tabPage>
             <sch:pageAreaName></sch:pageAreaName>
             <sch:fieldType>ObjectSelector</sch:fieldType>
-            <sch:widgetType2></sch:widgetType2>
             <sch:refTargetType>BankAccount</sch:refTargetType>
             <sch:label>支付或者赎回帐号</sch:label>
             <sch:controllingParameters></sch:controllingParameters>
@@ -1439,7 +1409,6 @@
             <sch:tabPage></sch:tabPage>
             <sch:pageAreaName></sch:pageAreaName>
             <sch:fieldType>Text</sch:fieldType>
-            <sch:widgetType2></sch:widgetType2>
             <sch:refTargetType></sch:refTargetType>
             <sch:label>赎回手续费</sch:label>
             <sch:controllingParameters></sch:controllingParameters>
@@ -1489,7 +1458,6 @@
             <sch:tabPage></sch:tabPage>
             <sch:pageAreaName></sch:pageAreaName>
             <sch:fieldType>Text</sch:fieldType>
-            <sch:widgetType2></sch:widgetType2>
             <sch:refTargetType></sch:refTargetType>
             <sch:label>支付提现流水号</sch:label>
             <sch:controllingParameters></sch:controllingParameters>
@@ -1539,7 +1507,6 @@
             <sch:tabPage></sch:tabPage>
             <sch:pageAreaName></sch:pageAreaName>
             <sch:fieldType>Text</sch:fieldType>
-            <sch:widgetType2></sch:widgetType2>
             <sch:refTargetType></sch:refTargetType>
             <sch:label>支付提现订单号</sch:label>
             <sch:controllingParameters></sch:controllingParameters>
@@ -1589,7 +1556,6 @@
             <sch:tabPage></sch:tabPage>
             <sch:pageAreaName></sch:pageAreaName>
             <sch:fieldType>Text</sch:fieldType>
-            <sch:widgetType2></sch:widgetType2>
             <sch:refTargetType></sch:refTargetType>
             <sch:label>支付或者提现平台订单号</sch:label>
             <sch:controllingParameters></sch:controllingParameters>
@@ -1639,7 +1605,6 @@
             <sch:tabPage></sch:tabPage>
             <sch:pageAreaName></sch:pageAreaName>
             <sch:fieldType>Text</sch:fieldType>
-            <sch:widgetType2></sch:widgetType2>
             <sch:refTargetType></sch:refTargetType>
             <sch:label>是否到账</sch:label>
             <sch:controllingParameters></sch:controllingParameters>
@@ -1690,7 +1655,6 @@
             <sch:tabPage></sch:tabPage>
             <sch:pageAreaName></sch:pageAreaName>
             <sch:fieldType>Text</sch:fieldType>
-            <sch:widgetType2></sch:widgetType2>
             <sch:refTargetType></sch:refTargetType>
             <sch:label>到账时间</sch:label>
             <sch:controllingParameters></sch:controllingParameters>
@@ -1740,7 +1704,6 @@
             <sch:tabPage></sch:tabPage>
             <sch:pageAreaName></sch:pageAreaName>
             <sch:fieldType>Date</sch:fieldType>
-            <sch:widgetType2></sch:widgetType2>
             <sch:refTargetType></sch:refTargetType>
             <sch:label>确认日期</sch:label>
             <sch:controllingParameters></sch:controllingParameters>
@@ -1790,7 +1753,6 @@
             <sch:tabPage></sch:tabPage>
             <sch:pageAreaName></sch:pageAreaName>
             <sch:fieldType>Date</sch:fieldType>
-            <sch:widgetType2></sch:widgetType2>
             <sch:refTargetType></sch:refTargetType>
             <sch:label>收益日期</sch:label>
             <sch:controllingParameters></sch:controllingParameters>
@@ -1840,7 +1802,6 @@
             <sch:tabPage></sch:tabPage>
             <sch:pageAreaName></sch:pageAreaName>
             <sch:fieldType>Section Header End</sch:fieldType>
-            <sch:widgetType2></sch:widgetType2>
             <sch:refTargetType></sch:refTargetType>
             <sch:label>扩展信息</sch:label>
             <sch:controllingParameters></sch:controllingParameters>

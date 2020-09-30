@@ -19,8 +19,6 @@
     <sch:modifyResource></sch:modifyResource>
     <sch:displayResource2></sch:displayResource2>
     <sch:modifyResource2></sch:modifyResource2>
-    <sch:prevPage></sch:prevPage>
-    <sch:nextPage></sch:nextPage>
     <sch:path></sch:path>
     <sch:description></sch:description>
     <sch:clientSideController></sch:clientSideController>
@@ -541,7 +539,7 @@
         <sch:BmfTreeNode>
             <sch:tableName>AgreementCalcSpec</sch:tableName>
             <sch:type>Collection</sch:type>
-            <sch:seqIndex>1200</sch:seqIndex>
+            <sch:seqIndex>1300</sch:seqIndex>
             <sch:format>CalcSpecs(%s)</sch:format>
             <sch:columns>#count</sch:columns>
             <sch:action></sch:action>
@@ -551,7 +549,7 @@
         <sch:BmfTreeNode>
             <sch:tableName>AgreementCalcSpec</sch:tableName>
             <sch:type>Item</sch:type>
-            <sch:seqIndex>1200</sch:seqIndex>
+            <sch:seqIndex>1300</sch:seqIndex>
             <sch:format>%s</sch:format>
             <sch:columns>Name</sch:columns>
             <sch:action></sch:action>
@@ -579,29 +577,9 @@
             <sch:description></sch:description>
         </sch:BmfTreeNode>
         <sch:BmfTreeNode>
-            <sch:tableName>PropertySpec</sch:tableName>
-            <sch:type>Collection</sch:type>
-            <sch:seqIndex>30000</sch:seqIndex>
-            <sch:format>PropertySpecs(%s)</sch:format>
-            <sch:columns>#count</sch:columns>
-            <sch:action></sch:action>
-            <sch:quoteDisplay>true</sch:quoteDisplay>
-            <sch:description></sch:description>
-        </sch:BmfTreeNode>
-        <sch:BmfTreeNode>
-            <sch:tableName>PropertySpec</sch:tableName>
-            <sch:type>Item</sch:type>
-            <sch:seqIndex>30000</sch:seqIndex>
-            <sch:format>%s</sch:format>
-            <sch:columns>Name</sch:columns>
-            <sch:action></sch:action>
-            <sch:quoteDisplay>false</sch:quoteDisplay>
-            <sch:description></sch:description>
-        </sch:BmfTreeNode>
-        <sch:BmfTreeNode>
             <sch:tableName>ConstRoleSpec</sch:tableName>
             <sch:type>Collection</sch:type>
-            <sch:seqIndex>20000</sch:seqIndex>
+            <sch:seqIndex>21000</sch:seqIndex>
             <sch:format>ConstRoleSpecs(%s)</sch:format>
             <sch:columns>#count</sch:columns>
             <sch:action></sch:action>
@@ -611,7 +589,27 @@
         <sch:BmfTreeNode>
             <sch:tableName>ConstRoleSpec</sch:tableName>
             <sch:type>Item</sch:type>
-            <sch:seqIndex>20000</sch:seqIndex>
+            <sch:seqIndex>21000</sch:seqIndex>
+            <sch:format>%s</sch:format>
+            <sch:columns>Name</sch:columns>
+            <sch:action></sch:action>
+            <sch:quoteDisplay>false</sch:quoteDisplay>
+            <sch:description></sch:description>
+        </sch:BmfTreeNode>
+        <sch:BmfTreeNode>
+            <sch:tableName>PropertySpec</sch:tableName>
+            <sch:type>Collection</sch:type>
+            <sch:seqIndex>22000</sch:seqIndex>
+            <sch:format>PropertySpecs(%s)</sch:format>
+            <sch:columns>#count</sch:columns>
+            <sch:action></sch:action>
+            <sch:quoteDisplay>true</sch:quoteDisplay>
+            <sch:description></sch:description>
+        </sch:BmfTreeNode>
+        <sch:BmfTreeNode>
+            <sch:tableName>PropertySpec</sch:tableName>
+            <sch:type>Item</sch:type>
+            <sch:seqIndex>22000</sch:seqIndex>
             <sch:format>%s</sch:format>
             <sch:columns>Name</sch:columns>
             <sch:action></sch:action>
@@ -621,7 +619,7 @@
         <sch:BmfTreeNode>
             <sch:tableName>ConstPropertySpec</sch:tableName>
             <sch:type>Collection</sch:type>
-            <sch:seqIndex>30000</sch:seqIndex>
+            <sch:seqIndex>23000</sch:seqIndex>
             <sch:format>ConstPropertySpecs(%s)</sch:format>
             <sch:columns>#count</sch:columns>
             <sch:action></sch:action>
@@ -631,7 +629,7 @@
         <sch:BmfTreeNode>
             <sch:tableName>ConstPropertySpec</sch:tableName>
             <sch:type>Item</sch:type>
-            <sch:seqIndex>30000</sch:seqIndex>
+            <sch:seqIndex>23000</sch:seqIndex>
             <sch:format>%s</sch:format>
             <sch:columns>Name</sch:columns>
             <sch:action></sch:action>

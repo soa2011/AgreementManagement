@@ -1,17 +1,17 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<sch:PageDefinition xmlns:sch="http://Baf.com/schemas" name="ConstPropertySpec Detail">
-    <sch:name>ConstPropertySpec Detail</sch:name>
+<sch:PageDefinition xmlns:sch="http://Baf.com/schemas" name="PropertyActual Summary">
+    <sch:name>PropertyActual Summary</sch:name>
     <sch:pageNumber></sch:pageNumber>
-    <sch:pageType>Detail</sch:pageType>
+    <sch:pageType>Summary</sch:pageType>
     <sch:pageCondition></sch:pageCondition>
     <sch:title></sch:title>
-    <sch:seqNumber>500</sch:seqNumber>
-    <sch:objectTypeName>ConstPropertySpec</sch:objectTypeName>
+    <sch:seqNumber>400</sch:seqNumber>
+    <sch:objectTypeName>PropertyActual</sch:objectTypeName>
     <sch:display>false</sch:display>
     <sch:labelColWidth>0</sch:labelColWidth>
     <sch:valueColWidth>0</sch:valueColWidth>
     <sch:numberOfColumns>0</sch:numberOfColumns>
-    <sch:defaultSort></sch:defaultSort>
+    <sch:defaultSort>CreatedOn DESC</sch:defaultSort>
     <sch:defaultDir></sch:defaultDir>
     <sch:labelOrientation></sch:labelOrientation>
     <sch:relatedRule></sch:relatedRule>
@@ -25,16 +25,16 @@
     <sch:changeFields></sch:changeFields>
     <sch:clientSideController></sch:clientSideController>
     <sch:serverSideController></sch:serverSideController>
-    <sch:objectType isRef="true">ConstPropertySpec</sch:objectType>
+    <sch:objectType isRef="true">PropertyActual</sch:objectType>
     <sch:pageAreas/>
     <sch:fields>
         <sch:BmfPageField>
             <sch:name>Kind</sch:name>
-            <sch:seqNumber>100</sch:seqNumber>
+            <sch:seqNumber>150</sch:seqNumber>
             <sch:tabIndex>0</sch:tabIndex>
             <sch:tabPage></sch:tabPage>
             <sch:pageAreaName></sch:pageAreaName>
-            <sch:fieldType>Edit</sch:fieldType>
+            <sch:fieldType>Text</sch:fieldType>
             <sch:refTargetType></sch:refTargetType>
             <sch:label>Kind</sch:label>
             <sch:controllingParameters></sch:controllingParameters>
@@ -50,10 +50,10 @@
             <sch:width>0</sch:width>
             <sch:height>0</sch:height>
             <sch:rowSpan>1</sch:rowSpan>
-            <sch:colSpan>1</sch:colSpan>
-            <sch:sortable>false</sch:sortable>
+            <sch:colSpan>0</sch:colSpan>
+            <sch:sortable>true</sch:sortable>
             <sch:sortOrder></sch:sortOrder>
-            <sch:filterType></sch:filterType>
+            <sch:filterType>Equal</sch:filterType>
             <sch:display>true</sch:display>
             <sch:required>false</sch:required>
             <sch:displayCondition></sch:displayCondition>
@@ -85,7 +85,7 @@
             <sch:tabIndex>0</sch:tabIndex>
             <sch:tabPage></sch:tabPage>
             <sch:pageAreaName></sch:pageAreaName>
-            <sch:fieldType>Edit</sch:fieldType>
+            <sch:fieldType>Text</sch:fieldType>
             <sch:refTargetType></sch:refTargetType>
             <sch:label>Name</sch:label>
             <sch:controllingParameters></sch:controllingParameters>
@@ -102,7 +102,7 @@
             <sch:height>0</sch:height>
             <sch:rowSpan>1</sch:rowSpan>
             <sch:colSpan>1</sch:colSpan>
-            <sch:sortable>false</sch:sortable>
+            <sch:sortable>true</sch:sortable>
             <sch:sortOrder></sch:sortOrder>
             <sch:filterType></sch:filterType>
             <sch:display>true</sch:display>
@@ -132,15 +132,15 @@
         </sch:BmfPageField>
         <sch:BmfPageField>
             <sch:name>DataType</sch:name>
-            <sch:seqNumber>300</sch:seqNumber>
+            <sch:seqNumber>200</sch:seqNumber>
             <sch:tabIndex>0</sch:tabIndex>
             <sch:tabPage></sch:tabPage>
             <sch:pageAreaName></sch:pageAreaName>
-            <sch:fieldType>Select</sch:fieldType>
+            <sch:fieldType>Text</sch:fieldType>
             <sch:refTargetType></sch:refTargetType>
             <sch:label>DataType</sch:label>
             <sch:controllingParameters></sch:controllingParameters>
-            <sch:domainName>DataType</sch:domainName>
+            <sch:domainName></sch:domainName>
             <sch:dynaDomain></sch:dynaDomain>
             <sch:dependency></sch:dependency>
             <sch:defaultValue></sch:defaultValue>
@@ -153,7 +153,7 @@
             <sch:height>0</sch:height>
             <sch:rowSpan>1</sch:rowSpan>
             <sch:colSpan>1</sch:colSpan>
-            <sch:sortable>false</sch:sortable>
+            <sch:sortable>true</sch:sortable>
             <sch:sortOrder></sch:sortOrder>
             <sch:filterType></sch:filterType>
             <sch:display>true</sch:display>
@@ -180,7 +180,6 @@
             <sch:eventHandler></sch:eventHandler>
             <sch:changeType></sch:changeType>
             <sch:changeFields></sch:changeFields>
-            <sch:bmfDomain isRef="true">DataType</sch:bmfDomain>
         </sch:BmfPageField>
         <sch:BmfPageField>
             <sch:name>Value</sch:name>
@@ -188,7 +187,7 @@
             <sch:tabIndex>0</sch:tabIndex>
             <sch:tabPage></sch:tabPage>
             <sch:pageAreaName></sch:pageAreaName>
-            <sch:fieldType>Edit</sch:fieldType>
+            <sch:fieldType>Text</sch:fieldType>
             <sch:refTargetType></sch:refTargetType>
             <sch:label>Value</sch:label>
             <sch:controllingParameters></sch:controllingParameters>
@@ -205,7 +204,7 @@
             <sch:height>0</sch:height>
             <sch:rowSpan>1</sch:rowSpan>
             <sch:colSpan>1</sch:colSpan>
-            <sch:sortable>false</sch:sortable>
+            <sch:sortable>true</sch:sortable>
             <sch:sortOrder></sch:sortOrder>
             <sch:filterType></sch:filterType>
             <sch:display>true</sch:display>

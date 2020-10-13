@@ -2,9 +2,9 @@
 <sch:Button xmlns:sch="http://Baf.com/schemas" name="EditAgreement">
     <sch:name>EditAgreement</sch:name>
     <sch:label>EditAgreement</sch:label>
-    <sch:behavior>ExecuteJavaScript</sch:behavior>
+    <sch:behavior>DynamicRoute</sch:behavior>
     <sch:bmfTransactionName></sch:bmfTransactionName>
-    <sch:content>editAgreement()</sch:content>
+    <sch:content>/Amw/${oid}</sch:content>
     <sch:appliesTo></sch:appliesTo>
     <sch:securityToken></sch:securityToken>
     <sch:description></sch:description>

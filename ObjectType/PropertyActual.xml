@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<sch:ObjectType xmlns:sch="http://Baf.com/schemas" name="ConstPropertySpec">
-    <sch:name>ConstPropertySpec</sch:name>
+<sch:ObjectType xmlns:sch="http://Baf.com/schemas" name="PropertyActual">
+    <sch:name>PropertyActual</sch:name>
     <sch:tableType>System</sch:tableType>
     <sch:archeType>NORMAL</sch:archeType>
-    <sch:parentTypeName>AgreementSpec,AgreementRequestSpec</sch:parentTypeName>
+    <sch:parentTypeName>Agreement,AgreementRequest</sch:parentTypeName>
     <sch:superTypeName></sch:superTypeName>
     <sch:accessMode>TableDirect</sch:accessMode>
     <sch:primaryField></sch:primaryField>

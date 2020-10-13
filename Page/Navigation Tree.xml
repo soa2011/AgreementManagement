@@ -6,8 +6,8 @@
     <sch:pageCondition></sch:pageCondition>
     <sch:title></sch:title>
     <sch:seqNumber>0</sch:seqNumber>
-    <sch:tableName></sch:tableName>
-    <sch:quoteDisplay>false</sch:quoteDisplay>
+    <sch:objectTypeName></sch:objectTypeName>
+    <sch:display>false</sch:display>
     <sch:labelColWidth>0</sch:labelColWidth>
     <sch:valueColWidth>0</sch:valueColWidth>
     <sch:numberOfColumns>0</sch:numberOfColumns>
@@ -21,8 +21,11 @@
     <sch:modifyResource2></sch:modifyResource2>
     <sch:path></sch:path>
     <sch:description></sch:description>
+    <sch:changeType></sch:changeType>
+    <sch:changeFields></sch:changeFields>
     <sch:clientSideController></sch:clientSideController>
     <sch:serverSideController></sch:serverSideController>
+    <sch:pageAreas/>
     <sch:fields/>
     <sch:variables/>
     <sch:treeNodes>
@@ -287,6 +290,26 @@
             <sch:description></sch:description>
         </sch:BmfTreeNode>
         <sch:BmfTreeNode>
+            <sch:tableName>PropertyActual</sch:tableName>
+            <sch:type>Collection</sch:type>
+            <sch:seqIndex>23000</sch:seqIndex>
+            <sch:format>PropertyActuals(%s)</sch:format>
+            <sch:columns>#count</sch:columns>
+            <sch:action></sch:action>
+            <sch:quoteDisplay>true</sch:quoteDisplay>
+            <sch:description></sch:description>
+        </sch:BmfTreeNode>
+        <sch:BmfTreeNode>
+            <sch:tableName>PropertyActual</sch:tableName>
+            <sch:type>Item</sch:type>
+            <sch:seqIndex>23000</sch:seqIndex>
+            <sch:format>%s</sch:format>
+            <sch:columns>Name</sch:columns>
+            <sch:action></sch:action>
+            <sch:quoteDisplay>false</sch:quoteDisplay>
+            <sch:description></sch:description>
+        </sch:BmfTreeNode>
+        <sch:BmfTreeNode>
             <sch:tableName>AgreementChangeLog</sch:tableName>
             <sch:type>Collection</sch:type>
             <sch:seqIndex>1400</sch:seqIndex>
@@ -380,8 +403,8 @@
             <sch:tableName>AgreementBatch</sch:tableName>
             <sch:type>Item</sch:type>
             <sch:seqIndex>1900</sch:seqIndex>
-            <sch:format>%s %s %s %s</sch:format>
-            <sch:columns>SeqNo,ProductOfferingId,TransType,EffectiveDate</sch:columns>
+            <sch:format>%s %s %s</sch:format>
+            <sch:columns>SeqNo,TransType,EffectiveDate</sch:columns>
             <sch:action></sch:action>
             <sch:quoteDisplay>false</sch:quoteDisplay>
             <sch:description></sch:description>
@@ -461,7 +484,7 @@
             <sch:type>Item</sch:type>
             <sch:seqIndex>500</sch:seqIndex>
             <sch:format>%s %s</sch:format>
-            <sch:columns>Code,Name</sch:columns>
+            <sch:columns>Kind,Name</sch:columns>
             <sch:action></sch:action>
             <sch:quoteDisplay>false</sch:quoteDisplay>
             <sch:description></sch:description>
@@ -630,6 +653,26 @@
             <sch:tableName>ConstPropertySpec</sch:tableName>
             <sch:type>Item</sch:type>
             <sch:seqIndex>23000</sch:seqIndex>
+            <sch:format>%s</sch:format>
+            <sch:columns>Name</sch:columns>
+            <sch:action></sch:action>
+            <sch:quoteDisplay>false</sch:quoteDisplay>
+            <sch:description></sch:description>
+        </sch:BmfTreeNode>
+        <sch:BmfTreeNode>
+            <sch:tableName>ParameterSpec</sch:tableName>
+            <sch:type>Collection</sch:type>
+            <sch:seqIndex>22000</sch:seqIndex>
+            <sch:format>ParameterSpecs(%s)</sch:format>
+            <sch:columns>#count</sch:columns>
+            <sch:action></sch:action>
+            <sch:quoteDisplay>true</sch:quoteDisplay>
+            <sch:description></sch:description>
+        </sch:BmfTreeNode>
+        <sch:BmfTreeNode>
+            <sch:tableName>ParameterSpec</sch:tableName>
+            <sch:type>Item</sch:type>
+            <sch:seqIndex>22000</sch:seqIndex>
             <sch:format>%s</sch:format>
             <sch:columns>Name</sch:columns>
             <sch:action></sch:action>

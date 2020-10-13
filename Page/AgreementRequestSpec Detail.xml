@@ -291,7 +291,7 @@
             <sch:tabPage></sch:tabPage>
             <sch:pageAreaName></sch:pageAreaName>
             <sch:fieldType>ObjectSelector</sch:fieldType>
-            <sch:refTargetType>ObjectType</sch:refTargetType>
+            <sch:refTargetType>DomainEventType</sch:refTargetType>
             <sch:label>TriggerEventTypeId</sch:label>
             <sch:controllingParameters></sch:controllingParameters>
             <sch:domainName></sch:domainName>

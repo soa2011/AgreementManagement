@@ -389,14 +389,14 @@
             <sch:bmfDomain isRef="true">RequestLevel</sch:bmfDomain>
         </sch:BmfPageField>
         <sch:BmfPageField>
-            <sch:name>RolePlayerId</sch:name>
+            <sch:name>TriggerEventId</sch:name>
             <sch:seqNumber>350</sch:seqNumber>
             <sch:tabIndex>0</sch:tabIndex>
             <sch:tabPage></sch:tabPage>
             <sch:pageAreaName></sch:pageAreaName>
-            <sch:fieldType>DynaObjectSelector</sch:fieldType>
-            <sch:refTargetType>exp:RequestSpecId.TriggerObjectTypeId.Name</sch:refTargetType>
-            <sch:label>RolePlayerId</sch:label>
+            <sch:fieldType>ObjectSelector</sch:fieldType>
+            <sch:refTargetType>DomainEvent</sch:refTargetType>
+            <sch:label>TriggerEventId</sch:label>
             <sch:controllingParameters></sch:controllingParameters>
             <sch:domainName></sch:domainName>
             <sch:dynaDomain></sch:dynaDomain>

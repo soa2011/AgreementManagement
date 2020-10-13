@@ -95,7 +95,7 @@
         </sch:BmfObjectRelationship>
         <sch:BmfObjectRelationship>
             <sch:type>REF_TO_ONE</sch:type>
-            <sch:name>TriggerObjectTypeId</sch:name>
+            <sch:name>TriggerEventTypeId</sch:name>
             <sch:displayName></sch:displayName>
             <sch:description></sch:description>
             <sch:relatedObjectType>ObjectType</sch:relatedObjectType>
